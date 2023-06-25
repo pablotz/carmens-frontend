@@ -1,0 +1,22 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 13%;
+    height: 50vh;
+}
+
+.home div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9b9b9b21;
+}
+
+.create-new {
+    grid-column: 1 / 3;
+}
+
+.list-all {
+    grid-column: 3 / 6;
+}
+
